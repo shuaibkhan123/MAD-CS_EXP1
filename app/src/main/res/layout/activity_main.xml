@@ -21,6 +21,18 @@
         tools:visibility="visible" />
 
     <Button
+        android:id="@+id/btToast"
+        android:layout_width="355dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="284dp"
+        android:text="Toast!"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <Button
         android:id="@+id/btFontColor"
         android:layout_width="355dp"
         android:layout_height="56dp"

@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         val btFontSize: Button =findViewById(R.id.btFontSize)
         val btFontColor:Button=findViewById(R.id.btFontColor)
         val btBgColor:Button=findViewById(R.id.btBgColor)
+        val btToast:Button=findViewById(R.id.btToast)
         var fontSize:Float=5f
         var fontColor:Int=0
         var bgColor:Int=0
@@ -49,6 +50,9 @@ class MainActivity : AppCompatActivity() {
                 2 -> background.setBackgroundColor(Color.BLUE)
             }
             bgColor++
+        }
+        btToast.setOnClickListener {
+            tvTxt.text="TOAST!"
         }
 
 
